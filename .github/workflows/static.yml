@@ -45,7 +45,7 @@ jobs:
         run: npm test
 
       - name: Build React app
-        run: npm run publish
+        run: npm run build
         env:
           GEMINI_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
 
